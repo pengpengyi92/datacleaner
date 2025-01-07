@@ -1,0 +1,35 @@
+===== 数据检验 =====
+缺失值统计：
+date      0
+price     1
+volume    0
+dtype: int64
+列 price 的异常值统计：
+   price
+4   1000
+重复数据统计：
+Empty DataFrame
+Columns: [date, price, volume]
+Index: []
+
+===== 数据清洗 =====
+已删除缺失值。
+已处理列 price 的异常值。
+已删除重复数据。
+
+===== 数据再检验 =====
+清洗后缺失值统计：
+date      0
+price     0
+volume    0
+dtype: int64
+列 price 的异常值统计：
+Empty DataFrame
+Columns: [price]
+Index: []
+清洗后重复数据统计：
+Empty DataFrame
+Columns: [date, price, volume]
+Index: []
+
+数据已导出到 cleaned_data.csv。
